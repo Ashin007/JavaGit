@@ -7,5 +7,12 @@ public class Main {
         System.out.println("commit from american guy");
 
         System.out.println("American guy is creating a branch called develop");
+
+        displayMessage();
+    }
+
+    private static void displayMessage() {
+
+        System.out.println("This message is created by indian master from develop branch");
     }
 }
